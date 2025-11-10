@@ -1,14 +1,14 @@
 {
   "site": {
-    "name": "Minimal Starter",
-    "tagline": "Your Creative Canvas",
-    "description": "A clean, minimal starter template providing the perfect foundation for your next project. Built with modern tools and ready for your creativity.",
+    "name": "CodeComedy",
+    "tagline": "Where Bugs Go to Party 🎉",
+    "description": "The funniest place to host your spaghetti code, questionable commits, and accidental masterpieces. Fork it, spork it, or just give it a high five!",
     "ogImage": "/og-image.png",
-    "twitterHandle": "",
+    "twitterHandle": "@codecomedy",
     "contact": {
-      "email": "contact@example.com",
-      "company": "Your Company",
-      "address": ""
+      "email": "yolo@codecomedy.dev",
+      "company": "CodeComedy Labs",
+      "address": "123 Bug Avenue, Stack Overflow City"
     },
     "legal": {
       "privacyPolicy": "/privacy",

@@ -5,6 +5,9 @@ import BillingSuccess from "@/pages/billing-success";
 import Chat from "@/pages/chat";
 import Dashboard from "@/pages/dashboard";
 import Home from "@/pages/home";
+import Repos from "@/pages/repos";
+import Profile from "@/pages/profile";
+import CodeViewer from "@/pages/code-viewer";
 import SignIn from "@/pages/sign-in";
 import SignUp from "@/pages/sign-up";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -18,6 +21,11 @@ export function App() {
         {/* Authentication routes */}
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
+
+        {/* CodeComedy routes */}
+        <Route path="/repos" element={<Repos />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/repo/:author/:repo" element={<CodeViewer />} />
 
         {/* Billing routes */}
         <Route
